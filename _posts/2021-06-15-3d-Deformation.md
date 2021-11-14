@@ -6,20 +6,14 @@ Shape deformation has been a well-studied problem over the decades. It provides 
 
 Challenges - “Intuitive deformation” how to? global change + local detail preservation
 
-1 - Traditional Shape Deformation - Deforming objects by preserving geometric details is a challenging task. There are broadly three main approaches for traditional shape deformation: surface deformation, space deformation, and skeleton skinning. Surface deformation methods move the control points on the surface of the mesh by constraining surrounding vertices to move naturally towards deformation to preserve the local surface geometry for a given vertex position.  (i.e., preserving mean curvature). Those methods benefit from regularization methods such as Laplacian \cite{sorkine2004laplacian, sorkine2005laplacian} or ARAP  \cite{sorkine2007rigid}. Unlike moving the vertices directly on the mesh, space deformation (a.k.a free-form deformation, cage-based) encloses the object within a cage. When the control points of the cage are deformed, the object deformed as well. Cage coordinates can be calculated in different ways such as barycentric coordinates, mean value coordinates \cite{ju2005mean}, harmonic coordinates \cite{joshi2007harmonic}, or green coordinates \cite{lipman2008green}.
+Traditional Shape Deformation - three main approaches for traditional shape deformation: surface deformation, space deformation, and skeleton skinning. 
 
-In skeleton skinning, deformation is rigidly (e.g., rotation, translation) defined on the first bones assuming that many objects have bones inside \cite{lewis2000pose, kavan2014direct}. Then the surface of the body deforms according to the bone. Similar to surface deformations, our method also deforms the surface of the initial parts by moving vertex points with a smooth regularization. \\
+1 - Surface deformation -  methods move the control points on the surface of the mesh by constraining surrounding vertices to move naturally towards deformation to preserve the local surface geometry for a given vertex position.  (i.e., preserving mean curvature). Those methods benefit from regularization methods such as Laplacian \cite{sorkine2004laplacian, sorkine2005laplacian} or ARAP  \cite{sorkine2007rigid}. 
 
+2 - Space deformation - Unlike moving the vertices directly on the mesh, space deformation (a.k.a free-form deformation, cage-based) encloses the object within a cage. When the control points of the cage are deformed, the object deformed as well. Cage coordinates can be calculated in different ways such as barycentric coordinates, mean value coordinates \cite{ju2005mean}, harmonic coordinates \cite{joshi2007harmonic}, or green coordinates \cite{lipman2008green}.
 
-Free form approaches
-- These methods use the voxel grids of the volume enclosing the surface as control points and define a smooth deformation function interpolating weights from the control points to the mesh vertices.
-- 
-cage-based approaches
-- take the control points not from voxel grids but from a coarse scaffold mesh surrounding the input.
-- 
-vertex-based
-- In these methods, the objective function for the optimization is directly defined with the mesh vertex positions, which describe geometric properties that should be preserved, such as mesh Laplacian [58,41] or local rigidity [43,33,57].
-- 
+3 - In skeleton skinning, deformation is rigidly (e.g., rotation, translation) defined on the first bones assuming that many objects have bones inside \cite{lewis2000pose, kavan2014direct}. Then the surface of the body deforms according to the bone. Similar to surface deformations, our method also deforms the surface of the initial parts by moving vertex points with a smooth regularization. \\
+
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
