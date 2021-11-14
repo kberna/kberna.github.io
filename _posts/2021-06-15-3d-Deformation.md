@@ -14,13 +14,8 @@ Traditional Shape Deformation - three main approaches for traditional shape defo
 
 3 - In skeleton skinning, deformation is rigidly (e.g., rotation, translation) defined on the first bones assuming that many objects have bones inside \cite{lewis2000pose, kavan2014direct}. Then the surface of the body deforms according to the bone. Similar to surface deformations, our method also deforms the surface of the initial parts by moving vertex points with a smooth regularization. \\
 
-
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
-
 ### References
-[1] Yifan, W., Aigerman, N., Kim, V., Chaudhuri, S., Sorkine-Hornung, O.: Neural
-cages for detail-preserving 3d deformations (2019) 
 
-[2] http://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/18_Deformation_1.pdf
+[1] http://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/18_Deformation_1.pdf
