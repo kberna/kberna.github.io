@@ -35,3 +35,4 @@ The easiest way to make your first post is to edit this one. Go into /_posts/ an
 ### References
 [1] Yifan, W., Aigerman, N., Kim, V., Chaudhuri, S., Sorkine-Hornung, O.: Neural
 cages for detail-preserving 3d deformations (2019) 
+[2] http://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/18_Deformation_1.pdf
