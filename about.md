@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi there, this is Berna! I am a Ph.D. student at Max Planch Institute for Intelligent Systems interested in 3D Reconstruction, 3D Geometry & Graphics. Some of my favorite blogs include [Peter Shirley's blog](http://psgraphics.blogspot.com/), [Matt Phar's blog](https://pharr.org/matt/blog/), and [Lilian's Blog](https://lilianweng.github.io/lil-log/). 
+Hi there, this is Berna! I am a Ph.D. student at Max Planck Institute for Intelligent Systems interested in 3D Reconstruction, 3D Geometry & Graphics. Some of my favorite blogs include [Peter Shirley's blog](http://psgraphics.blogspot.com/), [Matt Phar's blog](https://pharr.org/matt/blog/), and [Lilian's Blog](https://lilianweng.github.io/lil-log/). 
 
 
 ### Contact me
